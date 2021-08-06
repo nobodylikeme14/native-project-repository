@@ -1,0 +1,15 @@
+#navBar{
+  background-color: #F36A5A;
+}
+
+#mulaiUjian{
+  display: none;
+}
+
+#alertSelesai{
+  display: none;
+}
+
+#containerSoal2,#containerSoal3,#containerSoal4,#containerSoal5,#containerSoal6,#containerSoal7,#containerSoal8,#containerSoal9,#containerSoal10{
+  display: none;
+}
