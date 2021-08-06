@@ -1,0 +1,130 @@
+<!--
+Nama : Muhammad Al Fauzy
+Kelas: XII RPL
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Merkava Design UI</title>
+    <script type="text/javascript">
+      function iconClick() {
+        var x = document.getElementById("navbar");
+        var y = document.getElementById("namalogo");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+          y.style.display = "none";
+        } else {
+          x.className = "navbar";
+          y.style.display = "block";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrap">
+        <nav class="navbar" id="navbar">
+          <div class="nav-left">
+            <a href="#!" id="namalogo" class="namalogo"><h1>Merkava</h1></a>
+          </div>
+          <div class="nav-right">
+            <a href="#!" class="menu">Contact</a>
+            <a href="#!" class="menu">About</a>
+            <a href="#!" class="menu">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="iconClick()"><div></div><div></div><div></div></a>
+          </div>
+        </nav>
+        <!-- Content -->
+        <div class="body1">
+          <div class="container1">
+
+            <div class="word-title">
+                <h2>Your World. Destoryed.</h2>
+                <h3>and now you only have a single airship</h3>
+            </div>
+
+            <div class="grid-container">
+              <div class="grid-item">
+                <h3>An Adventure</h3>
+                <p>One day, you woke up and everything just... disappearas. In one night. The great city you live in? Ruins. The big monument your people build to celebrate? Didn't make it. Your family and friends? No where to be found. So what would you do? Sit down and cries? No ma'am, you set out to a journey. An adventure. To find the answer.</p>
+              </div>
+              <div class="grid-item">
+                <h3>A Rebuild</h3>
+                <p>Saving the world ain't no easy task. But if you don't do it, who will? Now of course killin' monster and running around rescuing people is good, but what good is there when those people you rescued have no place to go home? As the saying goes, there is no place like home. When you lost your place to go back to, you lost your hope.</p>
+              </div>
+              <div class="grid-item">
+                <h3>A Story</h3>
+                <p>Whose story am I tellin, you ask? Do I look like I can run around chasin monster and fighting? This old man can't run for his life, kid. This is not my story. This is <em>your</em> story. You get to do the cool things, and I get to tell your story to the world. For what is a hero that no one knows?</p>
+              </div>
+            </div>
+
+            <div class="call-container">
+              <div class="quotes">
+                <blockquote>
+                    I wandered everywhere, through cities and countries wide. And everywhere I went, the world was on my side.<br>
+                    <cite>Roman Payne, Rooftop Soliloquy</cite>
+                </blockquote>
+              </div>
+              <div class="btn-con">
+                <a href="#!" class="btn-start">Start Your Adventure</a>
+              </div>
+            </div>
+
+            <div class="in-container">
+                <h2>What just happened?</h2>
+                <p>Nobody knows. As far as I can tell, something happened last night. Something big. Our whole world was turned upside down. Town destroyed. Some weird, huge monsters comes out of nowhere. Some people survived, some people died, and others just disappears. No one knows why. Maybe you can help us find the answer.</p>
+
+                <h2>Monsters?</h2>
+                <p>Most of our towns were destroyed by monsters. They appears out of thin air, and just started a mayhem. Many brave warriors have died fighting them. We don't know anything about them other than that they're huge, bleeds orange fluid, and comes in different shape and weapons.</p>
+                <p>Lucky for us, as a species who likes to kill each other, we have developed some weapons that can fight them. We call our weapon "Gears", a huge, mechanical robots we build to slay Gods. Maybe those monsters are Gods that we pissed by building these thing.</p>
+
+                <h2>Where can I get one of these "Gears"?</h2>
+                <p>I don't know, kid. Every place imaginable to get them have been destroyed. Maybe you can buy it from other survivor. As they said, money can buy <em>anything</em>. Maybe you can loot it from some of our fallen warrior. Or maybe you can just build one yourself.</p>
+                <h2>What should I do next?</h2>
+                <p>What are you waiting for? Go kick ass and save the world! <a href="">Now</a>!</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="footer">
+          <div class="grid-container">
+            <div class="grid-item">
+              <h4>History</h4>
+              <p>
+                <a href="">The World</a> <br>
+                <a href="">Dimentional Vortex</a> <br>
+                <a href="">Gears</a> <br>
+                <a href="">Solaris</a>
+              </p>
+            </div>
+            <div class="grid-item">
+              <h4>The Database</h4>
+              <p>
+                <a href="">Towns</a> <br>
+                <a href="">Continents</a> <br>
+                <a href="">People</a> <br>
+                <a href="">Science &amp; Tech</a>
+              </p>
+            </div>
+            <div class="grid-item">
+              <h4>Bestiary</h4>
+                <p>
+                  <a href="">Earthlings</a> <br>
+                  <a href="">Leviathans</a> <br>
+                  <a href="">Angles</a> <br>
+                  <a href="">Demon</a>
+                </p>
+            </div>
+            <div class="grid-item">
+              <h1 class="bot-logo">Merkava</h1>
+              <h2 class="bot-tagline">wandering in an empty world</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
